@@ -25,12 +25,14 @@ on events.
 
 # Sean
 
-## Requirement 1
+## Requirement 1:
+
 - Step 1: I will...
 - Step 2: I will...
 
 
-## Requirement 2
+## Requirement 2:
+
 - Step 1: I will...
 - Step 2: I will...
 
@@ -38,11 +40,13 @@ on events.
 
 # Yashadii
 
-## Requirement 1
-- Step 1: I will
+## Requirement 1: Search Functionality
+
+- Step 1: Implement search functionality that will allow users to find parks and related information based on criteria like location.
 - Step 2: I will
 
 
-## Requirement 2
+## Requirement 2:
+
 - Step 1: I will
 - Step 2: I will
