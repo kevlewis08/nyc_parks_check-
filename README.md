@@ -43,10 +43,11 @@ on events.
 ## Requirement 1: Search Functionality
 
 - Step 1: Implement search functionality that will allow users to find parks and related information based on criteria like location.
-- Step 2: I will
+- Step 2: Design this search page to be user friendly and make it look park related.
 
 
-## Requirement 2:
+## Requirement 2: Events Page
 
-- Step 1: I will
-- Step 2: I will
+- Step 1: Implement code to link the index.html file to another file that will contain html code to the events page.
+- Step 2: Find information about possible events at local NYC parks.
+- Step 3: Design the events page to be user friendly.
