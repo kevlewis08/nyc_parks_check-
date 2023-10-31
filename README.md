@@ -56,16 +56,16 @@ Random_firstname, Random_lastname:
 
 # Sean
 
-## Requirement 1:
+## Requirement 1: Search Data
 
-- Step 1: I will...
-- Step 2: I will...
+- Step 1: Find publicly available open data and APIs from NYC government open data portal and possibly other sources.
+- Step 2: Using Python or C++ integrate the data sources into the search function so the most relevant information shows up when users search for something. Possibly also implementing search sugestions that show beneath the search bar when typing.
 
 
-## Requirement 2:
+## Requirement 2: UI/UX & Front End
 
-- Step 1: I will...
-- Step 2: I will...
+- Step 1: Design a UI/UX plan/map using Figma to decide how to best present information to the users and make navigating the site/app easy and visually appealing.
+- Step 2: Once design plan is finalized, use JavaScript or another language to build the front end and make sure all features are functional and properly linked to the back end.
 
 -----------------------------------------------
 
