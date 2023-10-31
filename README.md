@@ -17,9 +17,13 @@ on events.
 # Justin
 
 ## Requirement 1
-- Step 1: a map of new york, different sections and parts of the area will be seperatly shaded in
-- Step 2: "apply filters" section on the left side of the screen, different neighborhoods and even boroughs. (once selected in the filters, the area on the map will be shaded/colored in and the middle of the area will be covered with the name of the place.)
-- Step 3: once a specific park is selected, it will prompt pictures of the area along with details for when 
+- Step 1: Coding language - c++ and/or html, once the section "maps" is clicked on on the main page, it will take you to a new page that offer selections of the name of the park in the selected area along with a recognizable view of the park on the side of selections (main page -> click on "maps" -> list of 5 boroughs show up (only the map of the borough will be displayed next to the name of the borough) -> once a borough is selected the list of known parks will appear under the borough name. .
+  
+  - Finally once a park is selected, a slideshow will play of all community pictures and pictures of the area.
+    under the slideshow will reveal the address to the park, an overall rating of 5 stars and reviews from people that have visted, and local mta/train stops that are nearby the area.
+
+  //a map of new york, different sections and parts of the area will be seperatly shaded in. above picture of the park via maps app  will be highlighted in a specific color.
+
 
 ----------------------------------------------
 
