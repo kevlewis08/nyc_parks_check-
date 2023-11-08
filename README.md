@@ -34,15 +34,8 @@ Task for c++:
     - Random function for amount of reviews shown (at least 5-10 reviews for each park), (random functions is complete, the amount of reviews for each park is still something to be worked on. I plan on making a random function for each park but it make more sense to just leave it how it is.) 
     - Over 30 reviews (10 for each one which is good, bad, average) will be listed in code for random to decide and can be used but when the review is displayed there will be different names that will show with the review. all I have to do is add more reviews.
 
-    names for review:
-    (60 names inputed to random (30/30. 30 for firstname, 30 for lastname.)
-    I could do first name then last name. First and last name will be generated differently) "random_firstname", "random_lastname"
 
-    (generate bad reviews if stars_given was "<=2 out of 5 stars") "bad_review"
-    (generate good reviews if stars_given was ">2 out of 5 stars") "good_review"
-
-
-Model:
+Example Model:
 Stars Given: 4
 Random_firstname, Random_lastname:
 (produce an if statement, if the stars given is <=2 out of 5 print random bad_review.)
@@ -52,6 +45,11 @@ Random_firstname, Random_lastname:
 
 
 //a map of new york, different sections and parts of the area will be seperatly shaded in. above picture of the park via maps app (satalite view), will be highlighted in a specific color.
+
+## Requirement 2
+
+Find a way to convert Requirement 1 to HTML.
+Find out what parks you want to include on the webside so you can take the satalite pictures from the "maps" app on your phone and add them to the site.
 
 
 ----------------------------------------------
