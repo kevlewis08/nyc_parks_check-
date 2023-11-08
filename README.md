@@ -28,10 +28,11 @@ Once the section "maps" is clicked on on the main page, it will take you to a ne
 Finally once a park is selected, a slideshow will play of all community pictures and pictures of the area.
 under the slideshow will reveal the address to the park, an overall rating of 5 stars and reviews from people that have visted, and local mta/train stops that are nearby the area.
 
-"   "rated reviews from people that have visited" will also be on the site.
-    - Produce random reviews using a random function, 
-    - Random function for amount of reviews shown (at least 5-10 reviews for each park), 
-    - Over 30 reviews will be listed in code for random to decide and can be used but when the review is displayed there will be different names that will show with the review. 
+Task for c++:
+"rated reviews from people that have visited" will also be on the site.
+    - Produce random reviews using a random function. (done) 
+    - Random function for amount of reviews shown (at least 5-10 reviews for each park), (random functions is complete, the amount of reviews for each park is still something to be worked on. I plan on making a random function for each park but it make more sense to just leave it how it is.) 
+    - Over 30 reviews (10 for each one which is good, bad, average) will be listed in code for random to decide and can be used but when the review is displayed there will be different names that will show with the review. all I have to do is add more reviews.
 
     names for review:
     (60 names inputed to random (30/30. 30 for firstname, 30 for lastname.)
@@ -45,11 +46,12 @@ Model:
 Stars Given: 4
 Random_firstname, Random_lastname:
 (produce an if statement, if the stars given is <=2 out of 5 print random bad_review.)
-(produce an if statement, if the stars given is >2 out of 5, print random good_review.)
+(produce an if statement, if the stars given is >3 out of 5, print random good_review.) 
+(finished this model, added average for it the star being given was 3.)
 
-"
 
-  //a map of new york, different sections and parts of the area will be seperatly shaded in. above picture of the park via maps app  will be highlighted in a specific color.
+
+//a map of new york, different sections and parts of the area will be seperatly shaded in. above picture of the park via maps app (satalite view), will be highlighted in a specific color.
 
 
 ----------------------------------------------
