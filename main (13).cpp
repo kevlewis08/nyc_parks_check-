@@ -76,7 +76,7 @@ int main() {
         std::string randomFirstName = generateRandomName(true);
         std::string randomLastName  = generateRandomName(false);
 
-        std::cout << "Review " << i + 1 << " - Stars Given: " << starsGiven << "\n" << randomLastName << ", " << randomFirstName << " ";
+        std::cout << "Stars Given: " << starsGiven << "\n" << randomLastName << ", " << randomFirstName << " ";
 
         if (starsGiven <= 2) {
             std::string badReview = generateRandomReview(starsGiven);
