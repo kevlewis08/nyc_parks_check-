@@ -6,7 +6,7 @@ html {
 body {
   background-color: lightgrey;
   font-family: Times New Roman, Helvetica, sans-serif;
-  background-image: url("new-york-new-york-city-best-parks-central-park-bow-bridge.jpg");
+  background-image: url("pd19-3-13116u-45299550.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -14,14 +14,13 @@ body {
 }
 
 #NYC{
-  background-color: yellow;
   padding: 20px;
   text-align: center;
   margin: 20px;
-  border: 1px solid #ccc;
   border-radius: 5px;
   border-width: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  color: green;
+  font-size: 80px;
 }
 
 .Message{
@@ -31,9 +30,9 @@ body {
 }
 
 .button{
-  background-color: green;
+  background-color: yellow;
   border: none;
-  color: white;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -42,6 +41,20 @@ body {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 5px;
+  margin-left: 300px;
+  margin-top: 200px;
+}
+
+input{
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  width: 800px;
+  height: 80px;
+  margin-left: 450px;
+
+
 }
 
 
