@@ -80,6 +80,8 @@ Going to convert the c++ to the recommended coding language (most likely or Java
 - Step 1: Implement search functionality that will allow users to find parks and related information based on criteria like location.
 - Step 2: Design this search page to be user friendly and make it look park related.
 
+- By using HTML, CSS and JavaScript, I am able to create a page that is searchable and designed in relation to parks. The importance of this would be allowing users to find local parks in NYC and viewing which parks they may or may not like. For my part of the project I am working on the welcome page (first page) of the project and every page that has the search functionality. 
+
 
 ## Requirement 2: Events Page
 
