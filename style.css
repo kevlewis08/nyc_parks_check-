@@ -13,6 +13,7 @@ body {
   
 }
 
+
 #NYC{
   padding: 20px;
   text-align: center;
@@ -53,7 +54,12 @@ input{
   width: 800px;
   height: 80px;
   margin-left: 450px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
 
 }
 
