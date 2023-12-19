@@ -1,0 +1,33 @@
+input{
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 900px;
+    height: 80px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color: #AFF4C6;
+    border: none;
+    color: black;
+    height: 80px;
+    width: 250px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+
+}
