@@ -1,20 +1,83 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Simple Map</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-    <script type="module" src="./index.js"></script>
-  </head>
-  <body>
-    <div id="map"></div>
+<head>
+  <style>
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      background-color: #E6E6E6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-    <h1>
-        Maps
-    </h1>
+    .banner {
+      background-color: #14AE5C;
+      height: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 10%;
+      width: 100%;
+    }
 
-    <!-- prettier-ignore -->
-    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
-        ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly"});</script>
-  </body>
+    .banner h1 {
+      color: #FFA629;
+      font-size: 100px;
+    }
+
+    .choices {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-right: 250px;
+    }
+
+    .map {
+      height: 200px;
+      width: 200px;
+    }
+
+    .content {
+      display: flex;
+      align-items: flex-start;
+      padding-top: 35px;
+      padding-right: 400px;
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+  <div class="banner">
+    <h1>Maps</h1>
+    <link href="maps.css" rel="stylesheet" type="text/css" />
+
+    <input type="search" placeholder="Search for parks, events, playgrounds, etc. "> <button>Search</button> </input>
+
+  </div>
+
+  <div class="content">
+    <div class="choices">
+      <button class="button"> Manhattan</button>
+      <button class="button"> Brooklyn</button>
+      <button class="button"> Queens</button>
+      <button class="button"> Bronx</button>
+      <button class="button"> Staten Island</button>
+    </div>
+
+    <div class="map">
+      <iframe width="550" height="550" frameborder="0" style="border-radius: 25px;"
+        src="https://www.google.com/maps/embed/v1/view?key=AIzaSyBvoeRf9PpQml_eq5A1mJdMKmVf9VC8lFk&center=40.7128,-74.0060&zoom=10"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+</body>
+
 </html>
