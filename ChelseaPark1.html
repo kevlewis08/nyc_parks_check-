@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Main content styling */
+        main {
+            background-color: lightgrey;
+            padding: 120px;
+            text-align: center;
+            color: black;
+            position: relative;
+        }
+        /* Header styling */
+        header {
+            background-color: green;
+            padding: 25px;
+            text-align: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Section styling */
+        section {
+            margin: 55px 0;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 60px;
+            background-color: lightgrey; /* Grey color for the footer */
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        /* Search container styling */
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Input field styling */
+        input[type="text"] {
+            padding: 14px;
+            margin-right: 10px;
+            font-size: 14px;
+        }
+
+        /* Submit button styling */
+        input[type="submit"] {
+            padding: 14px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        /* Location info styling */
+        .location-info {
+            text-align: left;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .location-info h2 {
+            margin-right: 20px;
+            margin-bottom: 0;
+            font-size: 30px;
+        }
+
+        /* Location address styling */
+        .location-address {
+            color: green;
+            font-size: 20px;
+            margin-top: 0;
+            text-align: left;
+        }
+
+        .location-address a {
+            color: green;
+            text-decoration: none;
+        }
+
+        /* Actions styling */
+        .actions {
+            text-align: left;
+            color: black;
+            margin-top: 30px;
+        }
+
+        /* Reviews and Directions styling */
+        .reviews,
+        .directions {
+            display: block;
+            margin-right: 30px;
+        }
+
+        .reviews a,
+        .directions a {
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .directions a {
+            display: block;
+            margin-top: 10px;
+        }
+
+        /* Gold stars styling */
+        .stars {
+            color: gold;
+            font-size: 24px;
+        }
+
+        /* Lime Green layout styling */
+        .lime-green-layout {
+            background-color: limegreen;
+            color: black;
+            text-align: center; /* Center-align the text */
+            width: 320px;
+            height: 400px;
+            position: static;
+            margin-left: -200px;
+            margin-top: 20px;
+            font-size: 20px;
+            display: inline-block;
+            padding: 20px;
+            box-sizing: border-box; /* Include padding in width and height calculations */
+            position: relative;
+        }
+
+        /* Button container styling */
+        .button-container {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .button-container button {
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            margin-right: 10px;
+        }
+
+        /* Image styling */
+        .lime-green-layout img {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Image container styling */
+        .image-container {
+            float: right;
+            margin-left: 30px;
+        }
+
+        /* Adjusted button positions */
+        .button-container button:first-child {
+            margin-right: auto;
+        }
+
+        .button-container button:last-child {
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <!-- Search container -->
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <input type="submit" value="Search">
+        </div>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <!-- Location information section -->
+        <section>
+            <!-- Location info -->
+            <div class="location-info">
+                <h2>Chelsea Park</h2>
+                <!-- Actions (Reviews and Directions) -->
+                <div class="actions">
+                    <div class="reviews">
+                        <a href="https://www.yelp.com/biz/chelsea-park-new-york">Read Reviews:</a>
+                        <span class="stars">&#9733;&#9733;&#9733;</span>
+                    </div>
+                    <div class="directions">
+                        <a href="https://www.google.com/maps/dir//40.7499152,-74.0006406/@40.7499096,-74.0829655,30801m/data=!3m1!1e3?entry=ttu">Directions</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Location address -->
+            <p class="location-address"><a href="https://www.google.com/maps/dir//40.7499152,-74.0006406/@40.7499096,-74.0829655,30801m/data=!3m1!1e3?entry=ttu">9 Av To 10 Av, W 27 St To W 28 St<br>Manhattan</a></p>
+        </section>
+
+        <!-- Lime Green layout section -->
+        <div class="lime-green-layout">
+            <br> <br>
+            The park has a strong place in the history of the neighborhood. Its first playground was built in 1910 and designated as an open space for the residents of the crowded tenement district. In its early days, the newly formed Board of Recreation organized competitions that drew thousands of spectators and participants.
+        </div>
+        
+        <!-- Image container -->
+        <div class="image-container">
+            <img src="chelsea hw .jpeg" alt="Your Image">
+        </div>
+
+        <!-- Button container in the footer -->
+        <footer>
+            <div class="button-container">
+                <button>Previous Page</button>
+                <button>Next Page</button>
+            </div>
+        </footer>
+        
+    </main>
+
+</body>
+</html>
