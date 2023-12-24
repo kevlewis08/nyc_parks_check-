@@ -18,29 +18,18 @@ on events.
 
 ## Requirement 1
 - Step 1:
-Coding language - c++ and/or html,
+Coding language - write in c++ then transfer in html, html is the main language used for project.
 
-Once the section "maps" is clicked on on the main page, it will take you to a new page that offer selections of the name of the park in the selected area along with a recognizable view of the park on the side of selections (main page -> click on "maps" -> list of 5 boroughs show up (only the map of the borough will be displayed next to the name of the borough) -> once a borough is selected the list of known parks will appear under the borough name.
+Once the section "maps" is clicked on on the main page, it will take you to a new page that offer selections of the name of the park in the selected area along with a recognizable view of the park on the side of selections (main page -> click on the button "name of the park" -> informative page about the park will be displayed )
 -Add a button that sends you to another webpage (utilize w3schools to figure out how to do so)
--figure out how to input custom images onto the page from my phone (planned on placing the highlighted images from my phone next to the name of the borough and the park after being clicked on.)
+-figure out how to input images onto the html page from my files.
 
 -what will happen once a park is selected?
-Finally once a park is selected, a slideshow will play of all community pictures and pictures of the area.
-under the slideshow will reveal the address to the park, an overall rating of 5 stars and reviews from people that have visted, and local mta/train stops that are nearby the area.
+Finally once a park is selected, a search bar (located on the top), the address, directions, ratings,  a picture of the area along with a short paragraph will be displayed on the bottom half of the screen.
 
-Task for c++:
-"rated reviews from people that have visited" will also be on the site.
-    - Produce random reviews using a random function. (done) 
-    - Random function for amount of reviews shown (at least 5-10 reviews for each park), (random functions is complete, the amount of reviews for each park is still something to be worked on. I plan on making a random function for each park but it make more sense to just leave it how it is.) 
-    - Over 30 reviews (10 for each one which is good, bad, average) will be listed in code for random to decide and can be used but when the review is displayed there will be different names that will show with the review. all I have to do is add more reviews.
+Hyperlinks will be on "Directions" and the address, and ratings.
 
-
-Example Model:
-Stars Given: 4
-Random_firstname, Random_lastname:
-(produce an if statement, if the stars given is <=2 out of 5 print random bad_review.)
-(produce an if statement, if the stars given is >3 out of 5, print random good_review.) 
-(finished this model, added average for it the star being given was 3.)
+Provided a next and previous page, but instead of it saying "previous page" and "next page" it will say the "main page" and the name of the next page.
 
 
 
@@ -49,7 +38,7 @@ Random_firstname, Random_lastname:
 ## Requirement 2
 
 Find a way to convert Requirement 1 to HTML.
-Find out what parks you want to include on the webside so you can take the satalite pictures from the "maps" app on your phone and add them to the site.
+Find out what parks you want to include onto the website so that you can make a seperate page to inform the user about the specific park and reveal its ratings that the park was rated from the public.
 
 ## Requirement 3
 
