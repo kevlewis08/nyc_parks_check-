@@ -60,6 +60,18 @@ Going to convert the c++ to the recommended coding language (most likely or Java
 - Step 1: Design a UI/UX plan/map using Figma to decide how to best present information to the users and make navigating the site/app easy and visually appealing.
 - Step 2: Once design plan is finalized, use JavaScript or another language to build the front end and make sure all features are functional and properly linked to the back end.
 
+## Documentation Submission
+
+A:
+
+I first completed the Figma UI/UX map and constructed how each page would look, where contnent would be placed on each page and what the functionalities of the page elements would be. I also used Figma to keep the group organized and keep track of who was working on what page. We also communicated questions,answers and ideas in the Figma chat. After this I researched and read through the APIs from NYC government open data portal and Google Maps API and learned how we could implement each into our project. Ultimately I decided Google Maps APi was the most user friendly and intuitive API to use so that is what I integrated into the Maps page for the interactive map of New York City.
+
+B:
+
+The Maps page includes a search bar with a "Search" button. The seach bar includes text suggestiing things the user woul most likely want to search the website for. Once clicked and typed in, the suggestions dissapear to allow for the search input to be properly readable. The searching functionality however does not work at this time. The Maps page also includes five buttons for each borough of New York City. The buttons do not function but they were planned to zoom in on the map and display parks in the selected borough. The Maps page also includes an interactive map section that is automatically defaulted to showing the New York City area using Google Maps API. This section includes several functions including zooming in and out, viewing the map in 2D and 3D, selecting places that include links to get directions, view reviews, or view in a larger map page.
+
+
+
 -----------------------------------------------
 
 # Yashadii
